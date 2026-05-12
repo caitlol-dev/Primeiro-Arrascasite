@@ -1,0 +1,28 @@
+/* Precisa definir em qual classe vai ser aplicado o css para depois aplicar */
+body {
+    background-color: black;  
+}
+
+/* nao funcinou desta maneira
+texto-colorido{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+titulo-colorido{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+*/
+
+h1 { 
+    font-style: italic;
+}
+
+p { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: larger;
+}
