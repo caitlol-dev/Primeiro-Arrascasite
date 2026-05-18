@@ -1,7 +1,5 @@
 /* Precisa definir em qual classe vai ser aplicado o css para depois aplicar */
-body {
-    background-color: black;  
-}
+
 
 /* nao funcinou desta maneira
 texto-colorido{
@@ -17,12 +15,49 @@ titulo-colorido{
 }
 */
 
-h1 { 
+
+/* nao funcionou
+#arrasca_1 {
+    width: 100px;
+    height: 100px;
+}
+
+/* nao funcionou
+.img { 
+    width: 200px;
+    height: 200px;
+}
+*/
+
+#Titulo { 
     font-style: italic;
+    color: red;
+}
+
+.box { 
+    width: 100px;
+    height: 100px;
+}
+
+.red-box { 
+    background-color: red;
+}
+
+.white-box { 
+    background-color: white;
+}
+
+.lista {
+    color: red;
+}
+
+body {
+    background-color: black;  
 }
 
 p { 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
     font-size: larger;
+    color: red;
 }
