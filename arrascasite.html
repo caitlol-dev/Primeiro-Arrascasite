@@ -3,17 +3,65 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="CSS_ARRASCAETA.css"></link>
+
+        <!--Usar futuramente qunando tiver mais codigo com o JS, por enquanto usar o do body por ser pouca coisa-->
+        <script src="arrascascript.js"></script>
         <title>Arrascasite</title>
     </head>
     <body>
-        <h1 style="color: red;"><span class="titulo-colorido">
+        <script>
+            alert("Bem vindo ao ArrascaSite!")
+        </script>
+        <h1 id = "Titulo" ><span class="titulo-colorido">
             Site para dados do Arrascaeta
         </span></h1>
-        <img src="arrascaeta_manto_branco.png" alt="Arrascaeta_manto_branco"></img>
+        <img src="arrascaeta_manto_branco.png" alt="Arrascaeta_manto_branco">
         <!--Para colocar os textos espeficos eu primeiro declaro uma classe com SPAN CLASS="Nomme classe" no texto que quero mudar junto do css -->
         <!--Nao funcionou declarando o Span, usando o style direito no <P> apenas para texte, pesquisar metodo do SPAN depois -->
         <p style="color: red;" ><span class="texto-colorido"> Arrascaeta com manto branco</span></p>
-        <p>apenas um teste de alteracao para ver como subir arquivos alterados no github, logo sumirei</p>
+        <button class="btn">Manto Branco</button>
+
+        <p>Veja o numero de jogos <a href="aqui vou colocar o link para outra pagina" clicando aqui></a></p>
+
+        <!-- Apenas um teste de Divs e sections com CSS -->
+        <!-- Button com class btn para criar um botao no html, ele ainda nao leva para nenhum lugar-->
+        <button class="btn">Manto Preto</button>
+        <section>
+            <h2 style="color: red">Apenas um lembrete</h2>
+        </section>
+      <div class="Foto" id="Arrasca-Foto">
+        <img src="arrascaeta_manto_um.webp" alt="Arrasca_manto_preto">
+      </div>
+
+      <!-- Lista numerica-->
+        <ol class="lista">
+            <li>Arrasca1</li>
+            <li>Arrasca2</li>
+            <li>Arrasca3</li>
+        </ol>
+
+        <!-- Lista com pontinhos-->
+        <ul class="lista">
+            <li>Arrasca1</li>
+            <li>Arrasca2</li>
+            <li>Arrasca3</li>
+        </ul>
+
+      <div class="box red-box"></div>
+      <div class="box white-box"></div>
+
+      <figure>
+        <img src="arrasca_uruguai.png">
+        <figcaption>Arrascaeta <em>Uruguai</em> <strong>RARA FOTO</strong></figcaption>
+        <!-- <EM> basicamente é enfase-->
+            <!-- <Strong> basicamente é o BOLD ou so NEGRITO mesmo-->
+      </figure>
+
     </body>
+    <footer>
+        <p>
+            Site apenas para estudo de HTML,CSS e JavaScript - Tudo feito no intuido de usar como cobaia. 
+        </p>
+    </footer>
 </meta>
 </html>
