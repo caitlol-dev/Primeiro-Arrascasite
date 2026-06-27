@@ -8,64 +8,67 @@
         <script src="arrascascript.js"></script>
         <title>Arrascasite</title>
     </head>
-    <body>
-        <script>
-            alert("Bem vindo ao ArrascaSite!")
-        </script>
-        <h1 id = "Titulo" ><span class="titulo-colorido">
-            Site para dados do Arrascaeta
-        </span></h1>
-        <img src="arrascaeta_manto_branco.png" alt="Arrascaeta_manto_branco">
-        <!--Para colocar os textos espeficos eu primeiro declaro uma classe com SPAN CLASS="Nomme classe" no texto que quero mudar junto do css -->
-        <!--Nao funcionou declarando o Span, usando o style direito no <P> apenas para texte, pesquisar metodo do SPAN depois -->
-        <p style="color: red;" ><span class="texto-colorido"> Arrascaeta com manto branco</span></p>
-        <button class="btn">Manto Branco</button>
+  <header>
+    <h1>Giorgian De Arrascaeta</h1>
+    <p>Estatísticas e Curiosidades</p>
+</header>
 
-        <p>Veja o numero de jogos <a href="aqui vou colocar o link para outra pagina" clicando aqui></a></p>
 
-        <!-- Apenas um teste de Divs e sections com CSS -->
-        <!-- Button com class btn para criar um botao no html, ele ainda nao leva para nenhum lugar-->
-        <button class="btn">Manto Preto</button>
-        <section>
-            <h2 style="color: red">Apenas um lembrete</h2>
-        </section>
-      <div class="Foto" id="Arrasca-Foto">
-        <img src="arrascaeta_manto_um.webp" alt="Arrasca_manto_preto">
-      </div>
 
-      <!-- Lista numerica-->
-        <ol class="lista">
-            <li>Arrasca1</li>
-            <li>Arrasca2</li>
-            <li>Arrasca3</li>
-        </ol>
+<div class="arrascas">
+    <img src="arrascaeta_manto_branco.png" alt="arrascaeta_manto_branco">
+    <img src="arrascaeta_manto_um.webp" alt="arrascaeta_manto_um">
+    <img src="arrasca_uruguai.png" alt="arrasca_uruguai">
+</div>
 
-        <!-- Lista com pontinhos-->
-        <ul class="lista">
-            <li>Arrasca1</li>
-            <li>Arrasca2</li>
-            <li>Arrasca3</li>
+<section class="conteudo">
+    <div class="card">
+        <h2>Estatísticas</h2>
+        <ul>
+            <li><strong>Nome:</strong> Giorgian Daniel De Arrascaeta Benedetti</li>
+            <li><strong>Nascimento:</strong> 1º de junho de 1994</li>
+            <li><strong>País:</strong> Uruguai</li>
+            <li><strong>Posição:</strong> Meia-atacante</li>
+            <li><strong>Clube:</strong> Flamengo</li>
+            <li><strong>Pé dominante:</strong> Esquerdo</li>
+            <li><strong>Altura:</strong> 1,74 m</li>
         </ul>
+    </div>
 
-      <div class="box red-box"></div>
-      <div class="box white-box"></div>
+    <div class="card">
+        <h2>Conquistas</h2>
+        <ul>
+            <li>2 Libertadores</li>
+            <li>2 Campeonatos Brasileiros</li>
+            <li>Copa do Brasil</li>
+            <li>Supercopa do Brasil</li>
+            <li>Recopa Sul-Americana</li>
+            <li>Vários Campeonatos Cariocas</li>
+        </ul>
+    </div>
 
-      <figure>
-        <img src="arrasca_uruguai.png">
-        <figcaption>Arrascaeta <em>Uruguai</em> <strong>RARA FOTO</strong></figcaption>
-        <!-- <EM> basicamente é enfase-->
-            <!-- <Strong> basicamente é o BOLD ou so NEGRITO mesmo-->
-      </figure>
+    <div class="card">
+        <h2>Curiosidades</h2>
+        <ul>
+            <li>É considerado um dos melhores meio-campistas da América do Sul.</li>
+            <li>É conhecido pelos passes precisos e gols de longa distância.</li>
+            <li>Começou a carreira no Defensor Sporting, do Uruguai.</li>
+            <li>Chegou ao Flamengo em 2019.</li>
+            <li>É destaque também pela Seleção Uruguaia.</li>
+        </ul>
+    </div>
 
-      abluea
-      sadlasd
+    <div class="moments">
+        <h2>Momentos</h2>
+        <img src="liberta_2025.png" alt="titulo_liberta_2025">
+    </div>
+</section>
 
-    </body>
     <footer>
         <p>
             Site apenas para estudo de HTML,CSS e JavaScript - Tudo feito no intuido de usar como cobaia. 
-            cobai 2
         </p>
     </footer>
+    
 </meta>
 </html>

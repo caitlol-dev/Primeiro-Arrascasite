@@ -1,63 +1,121 @@
 /* Precisa definir em qual classe vai ser aplicado o css para depois aplicar */
 
 
-/* nao funcinou desta maneira
-texto-colorido{
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-titulo-colorido{
-    color: red;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-}
-*/
-
-
-/* nao funcionou
-#arrasca_1 {
-    width: 100px;
-    height: 100px;
+body{
+    background:#000000;
 }
 
-/* nao funcionou
-.img { 
-    width: 200px;
-    height: 200px;
-}
-*/
-
-#Titulo { 
-    font-style: italic;
-    color: red;
+header{
+    background:#c00000;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding:30px;
 }
 
-.box { 
-    width: 100px;
-    height: 100px;
+header h1{
+    font-size:40px;
 }
 
-.red-box { 
-    background-color: red;
+header p{
+    margin-top:10px;
+    font-size:20px;
 }
 
-.white-box { 
-    background-color: white;
+.banner{
+    display:flex;
+    justify-content:center;
+    margin:30px;
 }
 
-.lista {
-    color: red;
+
+.banner img{
+    width:320px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(192, 42, 42, 0.897);
 }
 
-body {
-    background-color: rgba(0, 0, 0, 0.747);  
+.arrascas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
 }
 
-p { 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    font-size: larger;
-    color: red;
+.arrascas img{
+    width: 320px;
+    height: 410px;
+    object-fit: cover; 
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(192, 42, 42, 0.897);
+}
+
+.conteudo{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.card{
+    background:rgb(255, 255, 255);
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h2{
+    color:#c00000;
+    margin-bottom:15px;
+}
+
+.card ul{
+    list-style:none;
+}
+
+.card li{
+    margin-bottom:10px;
+    line-height:1.5;
+}
+
+.moments { 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    width: 100%;
+}
+
+.moments h2 { 
+    color:#ffffff;
+    margin-bottom:15px;
+}
+
+.moments img { 
+    width: 900px;
+    max-width: 100;
+    border-radius: 15px;      
+    box-shadow: 0 5px 15px rgba(204, 45, 45, 0.945);
+}
+
+footer{
+    background:#ffffff;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
 }
