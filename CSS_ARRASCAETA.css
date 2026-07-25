@@ -1,5 +1,3 @@
-/* Precisa definir em qual classe vai ser aplicado o css para depois aplicar */
-
 
 *{
     margin:0;
@@ -9,7 +7,7 @@
 }
 
 body{
-    background:#000000;
+    background:#1f1f1f;
 }
 
 header{
